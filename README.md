@@ -8,7 +8,7 @@ Pi extension that adds:
 ## Install
 
 ```bash
-pi install git:github.com/karthiksraju/pi-selfprompt-extension
+pi install git:github.com/KarthikRaju391/pi-selfprompt-extension
 ```
 
 Then restart pi or run `/reload`.
