@@ -1,0 +1,20 @@
+{
+  "name": "pi-selfprompt-extension",
+  "version": "0.1.0",
+  "description": "Pi extension that lets the agent queue a follow-up prompt to itself.",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "selfprompt"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions/self-prompt.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
+  }
+}
